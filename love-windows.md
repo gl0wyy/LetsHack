@@ -128,7 +128,7 @@ Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
 ### I now had shell as user: Phoebe
 ![6](https://user-images.githubusercontent.com/98056797/152442061-48effe66-9d68-4e81-8f14-4a5721513889.PNG)
 
-### Further enumeration - started a python http server on my local machine and curled winPEAS.exe (wget was not available)
+### Further enumeration - I started a python http server on my local machine and curled winPEAS.exe (wget was not available)
 ![8](https://user-images.githubusercontent.com/98056797/152442281-b33039ec-1f8a-4a93-b071-374453f1270a.PNG)
 
 ![9](https://user-images.githubusercontent.com/98056797/152442289-d66a6466-7b39-4198-b043-3bb55fb48cf1.PNG)
