@@ -2,7 +2,7 @@
 # [gl0wy](https://app.hackthebox.com/profile/216556)
 
 
-### Let's enumerate the box
+### Nmap Scan
 ```markdown
 ┌──(gl0wy㉿kali)-[~]
 └─$ nmap -p- -sV -sC -T4 --min-rate 1000 10.10.10.239
@@ -92,9 +92,56 @@ Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
 ```
 ### Findings
 ```markdown
-Domain www.love.htb
-OS Windows 10 Pro 19042
-SMB Ports 139,445
-SSL on 443,5986
-HTTP on 80,5000,5040,5985,47001
+**Domain** www.love.htb
+**OS** Windows 10 Pro 19042
+**SMB** Ports 139,445
+**SSL** on 443,5986
+**HTTP** on 80,5000,5040,5985,47001
 ```
+### I check www.love.htb - we have a login page that requires a voter ID and password
+![1a](https://user-images.githubusercontent.com/98056797/152440542-776aa497-b3f1-4eaa-9d6e-637bf92c0e44.PNG)
+
+### Further enumeration - I find an admin directory and attempted to login using common credentials with no success
+![2b](https://user-images.githubusercontent.com/98056797/152441068-00236554-a2a8-4dda-a49a-60a181b5980b.PNG)
+
+### While trying to login to the admin page I launched another GoBuster scan on the admin directory - I still couldn't access these pages
+![2a](https://user-images.githubusercontent.com/98056797/152441237-9bbefa8d-9412-416a-84ed-07ac9fd04392.PNG)
+
+### I tried a few of the other HTTP ports but they were forbidden
+![7](https://user-images.githubusercontent.com/98056797/152441421-41b03c32-bef8-43a2-8698-b38ed1872738.PNG)
+
+### I then tried the staging subdirectory http://staging.love.htb and found a file scanning tool
+![14](https://user-images.githubusercontent.com/98056797/152441618-549f9048-6216-4b69-a994-135f3edd50f5.PNG)
+
+### I scanned the local machine 127.0.0.1 and saw the vote login page again - I then scanned the /admin/home.php
+![2](https://user-images.githubusercontent.com/98056797/152441774-d9479190-07fa-4193-98ba-cbd290a501ea.PNG)
+
+### I could now see the content of the admin dashboard but was unable to do anything else. I decided to scan some of the other HTTP ports and found this
+![1](https://user-images.githubusercontent.com/98056797/152441887-cd738da5-5f8b-4cf3-974a-7ff7cac88681.PNG)
+
+### I logged into the admin page with the credentials found
+![3](https://user-images.githubusercontent.com/98056797/152441933-a5307db5-684e-402e-adeb-a3c7a90d8733.PNG)
+
+### I immediately clicked to create a new voter and it allowed me to upload a .php reverse shell (remember that it has to use windows processes!)
+![5](https://user-images.githubusercontent.com/98056797/152442039-bc4593a5-08ca-40a7-9065-703ed8b23153.PNG)
+
+### I now had shell as user: Phoebe
+![6](https://user-images.githubusercontent.com/98056797/152442061-48effe66-9d68-4e81-8f14-4a5721513889.PNG)
+
+### Further enumeration - started a python http server on my local machine and curled winPEAS.exe (wget was not available)
+![8](https://user-images.githubusercontent.com/98056797/152442281-b33039ec-1f8a-4a93-b071-374453f1270a.PNG)
+
+![9](https://user-images.githubusercontent.com/98056797/152442289-d66a6466-7b39-4198-b043-3bb55fb48cf1.PNG)
+
+### Scrolling through the winPEAS output this stood out to me - this means any executables run will be run as system/administrator
+![10](https://user-images.githubusercontent.com/98056797/152442329-2a56fb20-7fc8-48df-8443-283ad31577b7.PNG)
+
+### Creating a payload
+![11](https://user-images.githubusercontent.com/98056797/152442412-a1ace076-777e-41ee-b043-37844871f88a.PNG)
+
+![12](https://user-images.githubusercontent.com/98056797/152442432-11fccdca-1748-4e79-8820-8f05daac37f8.PNG)
+
+### Shell as administrator - root flag!
+![13](https://user-images.githubusercontent.com/98056797/152442467-ca05b71e-f176-4a82-a2be-a936b18dbd24.PNG)
+
+
