@@ -89,12 +89,12 @@ Host script results:
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
-```
-### We find a few different things in our Nmap scan.
-## Domain www.love.htb
-## OS Windows 10 Pro 19042
-## SMB Ports 139,445
-## SSL on 443,5986
-## HTTP on 80,5000,5040,5985,47001
 
+### We find a few different things in our Nmap scan.
 ```markdown
+Domain www.love.htb
+OS Windows 10 Pro 19042
+SMB Ports 139,445
+SSL on 443,5986
+HTTP on 80,5000,5040,5985,47001
+```
