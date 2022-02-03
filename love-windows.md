@@ -1,18 +1,12 @@
 [Back to home](https://gl0wyy.github.io/HackTheBox/)
+
 <p align="center">
-  <b>Some Links:</b><br>
-  <a href="#">Link 1</a> |
-  <a href="#">Link 2</a> |
-  <a href="#">Link 3</a>
+  Write-up by
+  <a href="https://app.hackthebox.com/profile/216556">gl0wy</a>
   <br><br>
-  <img src="http://s.4cdn.org/image/title/105.gif">
+  <img src="https://user-images.githubusercontent.com/98056797/152444836-64f25e88-70b9-488d-9890-daeb0cef110f.svg">
 </p>
 
-[
-![logo-htb](https://user-images.githubusercontent.com/98056797/152444836-64f25e88-70b9-488d-9890-daeb0cef110f.svg)](https://app.hackthebox.com)
-<p align="right">
-Writeup by <a href="https://app.hackthebox.com/profile/216556">gl0wy</a>
-</p>
 ### Nmap Scan
 ```markdown
 ┌──(gl0wy㉿kali)-[~]
