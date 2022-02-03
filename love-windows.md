@@ -14,9 +14,7 @@
 ```-sV Attempts to determine the version of the service running on the port(s)``` <br>
 ```-T4 T0-T5 are scan speeds, generally more detectable the higher you go``` <br>
 ```--min-rate The minimum packets send per second```
-
 <br>
-
 ```markdown
 ┌──(gl0wy㉿kali)-[~]
 └─$ nmap -p- -sV -sC -T4 --min-rate 1000 10.10.10.239
@@ -119,10 +117,10 @@ Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
 ### Further enumeration - I find an admin directory and attempted to login using common credentials with no success
 ![2b](https://user-images.githubusercontent.com/98056797/152441068-00236554-a2a8-4dda-a49a-60a181b5980b.PNG)
 
-### While trying to login to the admin page I launched another GoBuster scan on the admin directory - I still couldn't access these pages
+### While trying to login to the admin page I launched another GoBuster scan on the admin directory - I still couldn't access these pages but not due to credentials specifically as I was being redirected back to the login page
 ![2a](https://user-images.githubusercontent.com/98056797/152441237-9bbefa8d-9412-416a-84ed-07ac9fd04392.PNG)
 
-### I tried a few of the other HTTP ports but they were forbidden
+### I tried some of the other HTTP ports but they were forbidden
 ![7](https://user-images.githubusercontent.com/98056797/152441421-41b03c32-bef8-43a2-8698-b38ed1872738.PNG)
 
 ### I then tried the staging subdirectory http://staging.love.htb and found a file scanning tool
