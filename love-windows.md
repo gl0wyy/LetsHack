@@ -90,7 +90,7 @@ Host script results:
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
 
-### We find a few different things in our Nmap scan.
+### Findings
 ```markdown
 Domain www.love.htb
 OS Windows 10 Pro 19042
