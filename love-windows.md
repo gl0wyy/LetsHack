@@ -9,6 +9,13 @@
 
 ### Nmap Scan
 ```markdown
+**-p-** Scan all ports
+**-sC** Script Scan using default NSE scripts
+**-sV** Attempts to determine the version of the service running on the port(s)
+**-T4** T0-T5 are scan speeds, generally more detectable the higher you go
+**--min-rate** The minimum packets send per second
+```
+```markdown
 ┌──(gl0wy㉿kali)-[~]
 └─$ nmap -p- -sV -sC -T4 --min-rate 1000 10.10.10.239
 Starting Nmap 7.92 ( https://nmap.org ) at 2022-02-03 15:43 EST
@@ -27,7 +34,7 @@ PORT      STATE SERVICE      VERSION
 135/tcp   open  msrpc        Microsoft Windows RPC
 139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
 443/tcp   open  ssl/http     Apache httpd 2.4.46 (OpenSSL/1.1.1j PHP/7.3.27)
-| ssl-cert: Subject: commonName=staging.love.htb/organizationName=ValentineCorp/stateOrProvinceName=m/countryName=in
+| ssl-cert: Subject: commonName=**staging.love.htb**/organizationName=ValentineCorp/stateOrProvinceName=m/countryName=in
 | Not valid before: 2021-01-18T14:00:16
 |_Not valid after:  2022-01-18T14:00:16
 | tls-alpn: 
@@ -69,11 +76,11 @@ PORT      STATE SERVICE      VERSION
 49669/tcp open  msrpc        Microsoft Windows RPC
 49670/tcp open  msrpc        Microsoft Windows RPC
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-Service Info: Hosts: www.example.com, LOVE, www.love.htb; OS: Windows; CPE: cpe:/o:microsoft:windows
+Service Info: Hosts: www.example.com, LOVE, **www.love.htb**; OS: Windows; CPE: cpe:/o:microsoft:windows
 
 Host script results:
 | smb-os-discovery: 
-|   OS: Windows 10 Pro 19042 (Windows 10 Pro 6.3)
+|   OS: **Windows 10 Pro 19042** (Windows 10 Pro 6.3)
 |   OS CPE: cpe:/o:microsoft:windows_10::-
 |   Computer name: Love
 |   NetBIOS computer name: LOVE\x00
@@ -98,6 +105,7 @@ Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
 ### Findings
 ```markdown
 **Domain** www.love.htb
+**Subdomain** staging.love.htb
 **OS** Windows 10 Pro 19042
 **SMB** Ports 139,445
 **SSL** on 443,5986
