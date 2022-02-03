@@ -122,7 +122,7 @@ Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
 ### I logged into the admin page with the credentials found
 ![3](https://user-images.githubusercontent.com/98056797/152441933-a5307db5-684e-402e-adeb-a3c7a90d8733.PNG)
 
-### I immediately clicked to create a new voter and it allowed me to upload a .php reverse shell (remember that it has to use windows processes!)
+### I immediately clicked to create a new voter and it allowed me to upload a .php reverse shell as a profile picture(remember that it has to use windows processes!) - the shell saved at http://love.htb/images/winphp.php and was accessible
 ![5](https://user-images.githubusercontent.com/98056797/152442039-bc4593a5-08ca-40a7-9065-703ed8b23153.PNG)
 
 ### I now had shell as user: Phoebe
