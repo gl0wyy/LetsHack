@@ -9,7 +9,7 @@
 
 ### Nmap Scan
 ```markdown
-**-p-** Scan all ports
+**-p-** Scans all ports
 **-sC** Script Scan using default NSE scripts
 **-sV** Attempts to determine the version of the service running on the port(s)
 **-T4** T0-T5 are scan speeds, generally more detectable the higher you go
