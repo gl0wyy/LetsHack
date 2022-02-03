@@ -6,8 +6,3 @@
 
 [Love - Easy](https://gl0wyy.github.io/HackTheBox/love-windows)
 
-
-### Linux Machines
-
-
-### Challenges
