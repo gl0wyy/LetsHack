@@ -8,7 +8,7 @@
 </p>
 
 ### Nmap Scan
-```markdown
+```
 **-p-** Scans all ports
 **-sC** Script Scan using default NSE scripts
 **-sV** Attempts to determine the version of the service running on the port(s)
