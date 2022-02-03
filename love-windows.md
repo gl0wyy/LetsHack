@@ -133,7 +133,7 @@ Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
 
 ![9](https://user-images.githubusercontent.com/98056797/152442289-d66a6466-7b39-4198-b043-3bb55fb48cf1.PNG)
 
-### Scrolling through the winPEAS output this stood out to me - this means any executables run will be run as system/administrator
+### Scrolling through the winPEAS output this stood out to me - this means all executables will be run as system/administrator
 ![10](https://user-images.githubusercontent.com/98056797/152442329-2a56fb20-7fc8-48df-8443-283ad31577b7.PNG)
 
 ### Creating a payload
