@@ -139,6 +139,7 @@ Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
 ### Creating a payload
 ![11](https://user-images.githubusercontent.com/98056797/152442412-a1ace076-777e-41ee-b043-37844871f88a.PNG)
 
+### Downloading the payload to love
 ![12](https://user-images.githubusercontent.com/98056797/152442432-11fccdca-1748-4e79-8820-8f05daac37f8.PNG)
 
 ### Shell as administrator - root flag!
