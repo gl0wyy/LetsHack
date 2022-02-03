@@ -2,8 +2,7 @@
 # [gl0wy](https://app.hackthebox.com/profile/216556)
 
 
-### Lets enumerate the box
-
+### Let's enumerate the box
 ```markdown
 ┌──(gl0wy㉿kali)-[~]
 └─$ nmap -p- -sV -sC -T4 --min-rate 1000 10.10.10.239
@@ -65,17 +64,6 @@ PORT      STATE SERVICE      VERSION
 49669/tcp open  msrpc        Microsoft Windows RPC
 49670/tcp open  msrpc        Microsoft Windows RPC
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port3306-TCP:V=7.92%I=7%D=2/3%Time=61FC3ECA%P=x86_64-pc-linux-gnu%r(NUL
-SF:L,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.25'\x20is\x20not\x20allowe
-SF:d\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(RPCCheck,4A,"
-SF:F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.25'\x20is\x20not\x20allowed\x20t
-SF:o\x20connect\x20to\x20this\x20MariaDB\x20server")%r(DNSVersionBindReqTC
-SF:P,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.25'\x20is\x20not\x20allowe
-SF:d\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(X11Probe,4A,"
-SF:F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.25'\x20is\x20not\x20allowed\x20t
-SF:o\x20connect\x20to\x20this\x20MariaDB\x20server")%r(WMSRequest,4A,"F\0\
-SF:0\x01\xffj\x04Host\x20'10\.10\.14\.25'\x20is\x20not\x20allowed\x20to\x2
-SF:0connect\x20to\x20this\x20MariaDB\x20server");
 Service Info: Hosts: www.example.com, LOVE, www.love.htb; OS: Windows; CPE: cpe:/o:microsoft:windows
 
 Host script results:
@@ -101,5 +89,12 @@ Host script results:
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
-
 ```
+### We find a few different things in our Nmap scan.
+## Domain www.love.htb
+## OS Windows 10 Pro 19042
+## SMB Ports 139,445
+## SSL on 443,5986
+## HTTP on 80,5000,5040,5985,47001
+
+```markdown
