@@ -4,7 +4,7 @@
 
 ### Windows Machines
 ```markdown
-
+[Love - Easy](https://gl0wyy.github.io/HackTheBox/love-windows)
 ```
 
 ### Linux Machines
