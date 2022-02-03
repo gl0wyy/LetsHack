@@ -1,4 +1,4 @@
-## Welcome to my walkthrough page 
+## HackTheBox Walkthroughs/Guides
 # [gl0wy](https://app.hackthebox.com/profile/216556)
 
 
