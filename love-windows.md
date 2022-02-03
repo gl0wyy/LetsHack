@@ -116,7 +116,7 @@ Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
 ### I scanned the local machine 127.0.0.1 and saw the vote login page again - I then scanned the /admin/home.php
 ![2](https://user-images.githubusercontent.com/98056797/152441774-d9479190-07fa-4193-98ba-cbd290a501ea.PNG)
 
-### I could now see the content of the admin dashboard but was unable to do anything else. I decided to scan some of the other HTTP ports and found this
+### I could now see the content of the admin dashboard but was unable to do anything else. I decided to scan some of the other HTTP ports and found admin credentials
 ![1](https://user-images.githubusercontent.com/98056797/152441887-cd738da5-5f8b-4cf3-974a-7ff7cac88681.PNG)
 
 ### I logged into the admin page with the credentials found
