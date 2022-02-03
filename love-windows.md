@@ -34,7 +34,7 @@ PORT      STATE SERVICE      VERSION
 135/tcp   open  msrpc        Microsoft Windows RPC
 139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
 443/tcp   open  ssl/http     Apache httpd 2.4.46 (OpenSSL/1.1.1j PHP/7.3.27)
-| ssl-cert: Subject: commonName=**staging.love.htb**/organizationName=ValentineCorp/stateOrProvinceName=m/countryName=in
+| ssl-cert: Subject: commonName=staging.love.htb/organizationName=ValentineCorp/stateOrProvinceName=m/countryName=in
 | Not valid before: 2021-01-18T14:00:16
 |_Not valid after:  2022-01-18T14:00:16
 | tls-alpn: 
@@ -76,11 +76,11 @@ PORT      STATE SERVICE      VERSION
 49669/tcp open  msrpc        Microsoft Windows RPC
 49670/tcp open  msrpc        Microsoft Windows RPC
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-Service Info: Hosts: www.example.com, LOVE, **www.love.htb**; OS: Windows; CPE: cpe:/o:microsoft:windows
+Service Info: Hosts: www.example.com, LOVE, www.love.htb; OS: Windows; CPE: cpe:/o:microsoft:windows
 
 Host script results:
 | smb-os-discovery: 
-|   OS: **Windows 10 Pro 19042** (Windows 10 Pro 6.3)
+|   OS: Windows 10 Pro 19042 (Windows 10 Pro 6.3)
 |   OS CPE: cpe:/o:microsoft:windows_10::-
 |   Computer name: Love
 |   NetBIOS computer name: LOVE\x00
@@ -104,12 +104,12 @@ Nmap done: 1 IP address (1 host up) scanned in 246.24 seconds
 ```
 ### Findings
 ```markdown
-**Domain** www.love.htb
-**Subdomain** staging.love.htb
-**OS** Windows 10 Pro 19042
-**SMB** Ports 139,445
-**SSL** on 443,5986
-**HTTP** on 80,5000,5040,5985,47001
+Domain www.love.htb
+Subdomain staging.love.htb
+OS Windows 10 Pro 19042
+SMB Ports 139,445
+SSL on 443,5986
+HTTP on 80,5000,5040,5985,47001
 ```
 ### I check www.love.htb - we have a login page that requires a voter ID and password
 ![1a](https://user-images.githubusercontent.com/98056797/152440542-776aa497-b3f1-4eaa-9d6e-637bf92c0e44.PNG)
