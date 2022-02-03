@@ -15,7 +15,7 @@
 <li>-T4 T0-T5 are scan speeds, generally more detectable the higher you go</li>
 <li>--min-rate The minimum packets send per second</li>
 
-
+<br>
 ```markdown
 ┌──(gl0wy㉿kali)-[~]
 └─$ nmap -p- -sV -sC -T4 --min-rate 1000 10.10.10.239
