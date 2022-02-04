@@ -18,7 +18,7 @@
 <th><img src="https://user-images.githubusercontent.com/98056797/152555353-3c5c07a2-3344-4e71-94f9-8cf6349c7d9a.png" alt="3" width = 225px height = 63px></th>
 </tr>
 <tr>
-<td><a href="/windows/love">Love</a></td>
+<td><a href="/windows/love/">Love</a></td>
 <td></td>
 <td></td>
 </tr>
