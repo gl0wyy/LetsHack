@@ -9,7 +9,6 @@
   <li><a href="/thm/">TryHackMe</a></li>
 </ul> 
 </div>
-<h1>HackTheBox Write-ups</h1>  
 <table>
 <tr>
 <th><img src="https://user-images.githubusercontent.com/98056797/152462312-ccc713db-834e-4831-b2a1-f30acb093f16.png"  alt="1" width = 250px height = 70px ></th>
