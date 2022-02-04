@@ -2,6 +2,7 @@
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/98056797/152557406-f9501b1a-0213-4546-ae82-c55c299d3142.png">
+<img src="https://user-images.githubusercontent.com/98056797/152574478-9bdad91a-0055-45d0-b536-f918bf46739c.png"></img>
 <ul>
   <li><a href="/">Home</a></li>
   <li><a href="https://blog.letshack.co.uk">Blog</a></li>
