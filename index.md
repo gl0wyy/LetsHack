@@ -4,6 +4,6 @@
 </p>
 
 
-![windows](https://user-images.githubusercontent.com/98056797/152462095-66719891-d114-4fdb-a6ad-7ceee9bac9c6.png)
+![windows](https://user-images.githubusercontent.com/98056797/152462144-394e80fb-51ac-4959-905e-6b73141fea97.png)
 
 [Love - Easy](https://gl0wyy.github.io/HackTheBox/love-windows)
