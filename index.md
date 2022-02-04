@@ -9,6 +9,3 @@
   <li><a href="/thm/">TryHackMe</a></li>
 </ul> 
 </div>
-
-<iframe id="widget-iframe" src="https://cyware.com/news/widget.php?domain=letshack.co.uk&type=professional&height=600&width=1000&logoScheme=light&font=Arial&titleColor=%23FFFFFF&bylineColor=%23FFFFFF&textColor=%23FFFFFF&backgroundColor=%23151515&bannerColor=%23151515&refreshInterval=60&maxChars=50&displayImages=true&generate=" frameborder="0" style="width:1000px; height:600px" ></iframe> 
-
