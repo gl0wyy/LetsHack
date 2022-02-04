@@ -1,6 +1,6 @@
 theme: jekyll-theme-hacker
-plugins:
-  - jekyll-feed
+feed:
+  path: https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml
 title: LetsHack
 description: Write-Ups and Cyber Security News!
 author: gl0wy
