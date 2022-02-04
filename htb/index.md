@@ -2,14 +2,13 @@
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/98056797/152557406-f9501b1a-0213-4546-ae82-c55c299d3142.png">
-<img src="https://user-images.githubusercontent.com/98056797/152574923-b4982ccc-9a43-4a1b-b49b-19a59aeda3af.png">
-
 <ul>
   <li><a href="/">Home</a></li>
   <li><a href="https://blog.letshack.co.uk">Blog</a></li>
   <li><a href="/htb/">HackTheBox</a></li>
   <li><a href="/thm/">TryHackMe</a></li>
-</ul> 
+</ul>
+<img src="https://user-images.githubusercontent.com/98056797/152574923-b4982ccc-9a43-4a1b-b49b-19a59aeda3af.png">
 </div>
 <table>
 <tr>
