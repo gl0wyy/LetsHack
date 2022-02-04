@@ -2,7 +2,7 @@
   Write-up by
   <a href="https://app.hackthebox.com/profile/216556">gl0wy</a>
   <br><br>
-  <img src="https://user-images.githubusercontent.com/98056797/152444836-64f25e88-70b9-488d-9890-daeb0cef110f.svg">
+  <img src="https://user-images.githubusercontent.com/98056797/152461481-5104695c-04fd-43c4-9757-38fa5411897b.png">
 </p>
 
 ### Windows Machines
