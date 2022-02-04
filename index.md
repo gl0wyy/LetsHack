@@ -4,6 +4,5 @@
 </p>
 
 
-![windows](https://user-images.githubusercontent.com/98056797/152462144-394e80fb-51ac-4959-905e-6b73141fea97.png)
-
+![windows](https://user-images.githubusercontent.com/98056797/152462255-04215cb3-4cf8-44ed-a0a6-1ead09208266.png)
 [Love - Easy](https://gl0wyy.github.io/LetsHack/love-windows)
