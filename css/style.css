@@ -3,7 +3,12 @@
 header {
   display: none;
 }
-
+img
+{
+    max-width: 100%;
+    min-width: 63px;
+    height: auto;
+}
 th {
   text-align: center;
 }
