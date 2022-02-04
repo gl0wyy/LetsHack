@@ -10,10 +10,10 @@
 ### Nmap Scan
 
 `-p-` Scans all ports <br>
-```-sC``` Script Scan using default NSE scripts <br>
-```-sV``` Attempts to determine the version of the service running on the port(s) <br>
-```-T4``` T0-T5 are scan speeds, generally more detectable the higher you go <br>
-```--min-rate``` The minimum packets send per second
+`-sC` Script Scan using default NSE scripts <br>
+`-sV` Attempts to determine the version of the service running on the port(s) <br>
+`-T4` T0-T5 are scan speeds, generally more detectable the higher you go <br>
+`--min-rate` The minimum packets send per second
 <br>
 ```markdown
 ┌──(gl0wy㉿kali)-[~]
