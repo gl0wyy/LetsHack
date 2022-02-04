@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background: #151515 url("https://user-images.githubusercontent.com/98056797/152600694-8ef80f2c-0df7-4f7f-86ca-7c11ebea8105.jpg");
-  color: #eaeaea;
+  color: #790000;
   font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -13,6 +13,12 @@ body {
 header {
   display: none;
 }
+
+a {
+  color: #64ffe2;
+  text-shadow: 0 0 5px rgba(54, 255, 227, 0.5);
+}
+
 img
 {
     max-width: 100%;
@@ -27,13 +33,19 @@ td {
   text-align: center;
 }
 
+th {
+  border-bottom: 1px solid #00ffdb;
+  padding: 5px 10px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #3b403d;
-  border-radius: 6px;
+  border-radius: 10;
+  border-bottom: 1px solid #00ffdb;
 }
 
 li {
@@ -46,11 +58,13 @@ li {
 
 li a {
   display: block;
-  color: #0fffda; 
+  color: #0fffda;
+  text-shadow: 0 0 5px rgba(54, 255, 227, 0.5);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
+   text-shadow: 0 0 5px rgba(54, 255, 227, 1);
 }
