@@ -9,4 +9,4 @@
 </ul> 
 </div>
 
-<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml">
+
