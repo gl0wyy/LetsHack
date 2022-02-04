@@ -1,8 +1,6 @@
 <p align="center">
-  Write-up by
-  <a href="https://app.hackthebox.com/profile/216556">gl0wy</a>
   <br><br>
-  <img src="https://user-images.githubusercontent.com/98056797/152461481-5104695c-04fd-43c4-9757-38fa5411897b.png">
+  <img src="https://user-images.githubusercontent.com/98056797/152461595-df4e796c-a2ef-4766-8321-080bc84b60d6.png">
 </p>
 
 ### Windows Machines
