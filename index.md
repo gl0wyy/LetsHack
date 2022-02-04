@@ -8,17 +8,10 @@
   <tr>
     <td> <img src="https://user-images.githubusercontent.com/98056797/152462312-ccc713db-834e-4831-b2a1-f30acb093f16.png"  alt="1" width = 250px height = 70px ></td>
    </tr> 
-  <tr>
+  <tc>
     <td><img src="https://user-images.githubusercontent.com/98056797/152462676-0b0146c4-2f27-432c-a721-a1aaaf3d8ae3.png" alt="2" width = 250px height = 70px></td>
-  </tr>
+  </tc>
 </table>
-
-| ![windows](https://user-images.githubusercontent.com/98056797/152462312-ccc713db-834e-4831-b2a1-f30acb093f16.png)  | ![linux](https://user-images.githubusercontent.com/98056797/152462676-0b0146c4-2f27-432c-a721-a1aaaf3d8ae3.png)
-  |   |   |   |
-|---|---|---|---|---|
-| [Love - Easy](https://gl0wyy.github.io/LetsHack/love-windows)  |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
 
 
 
