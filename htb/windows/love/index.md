@@ -1,12 +1,20 @@
-[Back to home](https://gl0wyy.github.io/LetsHack/)
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/98056797/152557406-f9501b1a-0213-4546-ae82-c55c299d3142.png">
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="https://blog.letshack.co.uk">Blog</a></li>
+  <li><a href="/htb/">HackTheBox</a></li>
+  <li><a href="/thm/">TryHackMe</a></li>
+</ul>
+<img src="https://user-images.githubusercontent.com/98056797/152576293-92ef42b6-0924-4a86-9f91-4d92b5aa3d7d.png">
+
+</div>
 <p align="center">
   Write-up by
   <a href="https://app.hackthebox.com/profile/216556">gl0wy</a>
-  <br><br>
-  <img src="https://user-images.githubusercontent.com/98056797/152444836-64f25e88-70b9-488d-9890-daeb0cef110f.svg">
 </p>
-
 ### Nmap Scan
 
 `-p-` Scans all ports <br>
