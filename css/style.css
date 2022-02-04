@@ -3,11 +3,30 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("https://user-images.githubusercontent.com/98056797/152600694-8ef80f2c-0df7-4f7f-86ca-7c11ebea8105.jpg");
-  color: #790000;
+  background: #151515 url("https://user-images.githubusercontent.com/98056797/152600694-8ef80f2c-0df7-4f7f-86ca-7c11ebea8105.jpg") ;
+  background-repeat: no-repeat;
+  color: #dfdaec;
   font-size: 16px;
+  
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+code.highlighter-rouge {
+  background: rgba(0,0,0,0.9);
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 0px 3px;
+  margin: 0px -3px;
+  color: #9d4d7a;
+  border-radius: 2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #4cec92;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(102, 147, 16, 0.1),0 0 10px rgba(181,232,83,0.1);
 }
 
 header {
@@ -15,7 +34,7 @@ header {
 }
 
 a {
-  color: #64ffe2;
+  color: #4cec92;
   text-shadow: 0 0 5px rgba(54, 255, 227, 0.5);
 }
 
@@ -43,9 +62,9 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #3b403d;
+  background-color: #002e33;
   border-radius: 10;
-  border-bottom: 1px solid #00ffdb;
+  border-bottom: 2px solid #4cec92;
 }
 
 li {
@@ -58,7 +77,7 @@ li {
 
 li a {
   display: block;
-  color: #0fffda;
+  color: #4cec92;
   text-shadow: 0 0 5px rgba(54, 255, 227, 0.5);
   text-align: center;
   padding: 14px 16px;
