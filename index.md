@@ -1,4 +1,4 @@
-<p align="center">
+<div align="centre>
 <img src="https://user-images.githubusercontent.com/98056797/152557406-f9501b1a-0213-4546-ae82-c55c299d3142.png">
 </p>
 
@@ -22,5 +22,4 @@
 <td></td>
 </tr>
 </table> 
-
-
+</div>
