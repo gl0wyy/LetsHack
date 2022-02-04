@@ -8,7 +8,8 @@
   <li><a href="/htb/">HackTheBox</a></li>
   <li><a href="/thm/">TryHackMe</a></li>
 </ul>
-<img src="https://user-images.githubusercontent.com/98056797/152574923-b4982ccc-9a43-4a1b-b49b-19a59aeda3af.png">
+<img src="https://user-images.githubusercontent.com/98056797/152576293-92ef42b6-0924-4a86-9f91-4d92b5aa3d7d.png">
+
 </div>
 <table>
 <tr>
