@@ -1,4 +1,4 @@
-[Back to home](https://gl0wyy.github.io/HackTheBox/)
+[Back to home](https://gl0wyy.github.io/LetsHack/)
 
 <p align="center">
   Write-up by
