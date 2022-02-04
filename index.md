@@ -4,7 +4,7 @@
 </p>
 
 
-
+ <center>
  <table>
   <tr>
     <th><img src="https://user-images.githubusercontent.com/98056797/152462312-ccc713db-834e-4831-b2a1-f30acb093f16.png"  alt="1" width = 250px height = 70px ></th>
@@ -12,13 +12,14 @@
     <th><img src="https://user-images.githubusercontent.com/98056797/152555353-3c5c07a2-3344-4e71-94f9-8cf6349c7d9a.png" alt="2" width = 250px height = 70px></th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table> 
+</center>
