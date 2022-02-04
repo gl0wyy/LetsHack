@@ -1,11 +1,13 @@
-<center>
+
 <p align="center">
   <br><br>
   <img src="https://user-images.githubusercontent.com/98056797/152461595-df4e796c-a2ef-4766-8321-080bc84b60d6.png">
 </p>
 
-### Write-Ups
-
+<p align="center">
+  ### Write-Ups
+</p>
+<center>
  <table>
   <tr>
     <th><img src="https://user-images.githubusercontent.com/98056797/152462312-ccc713db-834e-4831-b2a1-f30acb093f16.png"  alt="1" width = 250px height = 70px ></th>
