@@ -46,12 +46,11 @@ li {
 
 li a {
   display: block;
-  color: #0fffda;
+  color: #0fffda; 
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  color: #00ff6c;
 }
