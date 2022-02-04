@@ -1,12 +1,17 @@
+@import "{{ site.theme }}";
+
 header {
   display: none;
 }
+
 th {
   text-align: center;
 }
+
 td {
   text-align: center;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -16,7 +21,11 @@ ul {
 }
 
 li {
-  float: left;
+  float: left
+  width: auto;
+  float: none;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 li a {
@@ -30,4 +39,5 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+  color: #00ff6c;
 }
