@@ -1,7 +1,5 @@
 <style>
 th {
-  text-align: center;
-  img-align: center;
   horizontal-align: center;
   }
 </style>
