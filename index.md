@@ -7,4 +7,4 @@
   <li><a href="/htb/">HackTheBox</a></li>
   <li><a href="/thm/">TryHackMe</a></li>
 </ul><br>
-<a class="twitter-timeline" href="https://twitter.com/LetsHackUK?ref_src=twsrc%5Etfw">Tweets by LetsHackUK</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<a class="twitter-timeline" data-lang="en" data-theme="dark" href="https://twitter.com/LetsHackUK?ref_src=twsrc%5Etfw">Tweets by LetsHackUK</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
