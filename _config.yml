@@ -1,5 +1,3 @@
 theme: jekyll-theme-hacker
 title: LetsHack
 description: Write-Ups and Cyber Security News!
-permalink: /:collection/:year-:month-:day-:title:output_ext
-show_excerpts: true
