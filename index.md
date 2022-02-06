@@ -1,22 +1,4 @@
-<!-- HTML Meta Tags -->
-<title>LetsHack</title>
-<meta name="description" content="Write-Ups and Cyber Security News!">
-
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://letshack.co.uk/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="LetsHack">
-<meta property="og:description" content="Write-Ups and Cyber Security News!">
-<meta property="og:image" content="https://letshack.co.uk/img/socialpreview.png">
-
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="letshack.co.uk">
-<meta property="twitter:url" content="https://letshack.co.uk/">
-<meta name="twitter:title" content="LetsHack">
-<meta name="twitter:description" content="Write-Ups and Cyber Security News!">
-<meta name="twitter:image" content="https://letshack.co.uk/img/socialpreview.png">
-
+<meta name="image" property="og:image" content="https://letshack.co.uk/img/socialpreview.png">
 <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
 <link rel="shortcut icon" type="image/png" href="/img/favicon.ico"/>
 <div align="center">
