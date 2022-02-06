@@ -1,12 +1,5 @@
 theme: jekyll-theme-hacker
-plugins:
-  - jekyll-seo-tag
-image:
-  path: /img/socialpreview.png
-  height: 600
-  width: 335
 title: LetsHack
 description: Write-Ups and Cyber Security News!
-author: gl0wy
 permalink: /:collection/:year-:month-:day-:title:output_ext
 show_excerpts: true
