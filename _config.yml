@@ -3,8 +3,8 @@ plugins:
   jekyll-seo-tag
 image:
   path: /img/socialpreview.png
-  height: 100
-  width: 100
+  height: 600
+  width: 335
 title: LetsHack
 description: Write-Ups and Cyber Security News!
 author: gl0wy
