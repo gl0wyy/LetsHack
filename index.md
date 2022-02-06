@@ -1,4 +1,5 @@
 <meta property="og:image" content="/img/socialpreview.png" />
+<meta property="og:type" content="website">
 <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
 <link rel="shortcut icon" type="image/png" href="/img/favicon.ico"/>
 <div align="center">
